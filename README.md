@@ -2,4 +2,12 @@
 DevSprint 2018 repo
 <!-- discription about project -->
 ## Curriculum Vitae Rating Application
-We consider the job requirement document and CV/Resume. After uploading both the documents, the user will receive a rating score of the uploaded CV/Resume against the corresponding job requirement which will be the measure of how likely is the Resume going to be shortlisted for the job requirement. 
+We consider the job requirement document and CV/Resume. After uploading both the documents, the user will receive a rating score of the uploaded CV/Resume against the corresponding job requirement which will be the measure of how likely is the Resume going to be shortlisted for the job requirement.
+<!-- functionality about aplication-->
+## Functionality
+1.Gives the ratings  \
+    -Assigns the ratings to applicant's resume.  \
+    -Assigns the percentage of success to hired by a job.  \
+2.Creates the database  \
+     -Makes the groups of resumes of similar candidates.  \
+3.Make matches of resumes to respective jobs  
