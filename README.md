@@ -14,10 +14,17 @@ All these tools are used to designe a web-app for rating Resume and CVs.
 
 <!-- functionality about aplication-->
 ## Functionality
-1.Gives the ratings  \
-    -Assigns the ratings to applicant's resume.  \
-    -Assigns the percentage of success to hired by a job.  \
-2.Creates the database  \
-     -Makes the groups of resumes of similar candidates.  \
-3.Make matches of resumes to respective jobs 
-
++ Gives the ratings
+    - Assigns the ratings to applicant's resume.
+    - Assigns the percentage of success to hired by a job.
++ Creates the database 
+     - Makes the groups of resumes of similar candidates.
++ Make matches of resumes to respective jobs 
+<!--Web Components -->
+## Web Pages
++ **Recruiter side pages**
+    - Login page for recruiter:[click here](https://github.com/ayush9398/DevSprint/blob/master/login%20recruiter/login.php/ "login page!")
+    - Logout page for recruiter:[click here](https://github.com/ayush9398/DevSprint/blob/master/login%20recruiter/logout.php/ "logout page!")
+    - Register page for recruiter:[click here](https://github.com/ayush9398/DevSprint/blob/master/login%20recruiter/register.php/ "Register Page!")
++ **Candidate side pages**
+    - Application page for candidates:[click here](https://github.com/ayush9398/DevSprint/blob/master/apply_new.php/ "Application page!")
