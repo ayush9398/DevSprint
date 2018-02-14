@@ -26,7 +26,7 @@
 	<meta name="twitter:card" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -58,16 +58,16 @@
 
 	</head>
 	<body>
-		
+
 	<div class="gtco-loader"></div>
-	
+
 	<div id="page">
 
-	
+
 	<!-- <div class="page-inner"> -->
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
-			
+
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
 					<div id="gtco-logo"><a href="index.html">Traveler <em>.</em></a></div>
@@ -75,15 +75,15 @@
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
 						<li><a href="destination.html">User</a></li>
-						
+
 						<li><a href="contact.html">Recruiter</a></li>
-					</ul>	
+					</ul>
 				</div>
 			</div>
-			
+
 		</div>
 	</nav>
-	
+
 	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/img_bg_3.jpg)">
 		<div class="overlay"></div>
 		<div class="gtco-container">
@@ -93,108 +93,109 @@
 
 						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
 							<span class="intro-text-small">Don't be shy</span>
-							<h1>Get In Touch</h1>	
+							<h1>Get In Touch</h1>
 						</div>
-						
+
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
 	</header>
-	
-	
+
+
 	<div class="gtco-section border-bottom">
 		<div class="gtco-container">
-            
+
 			<div class="row">
 				<div class="col-md-12">
 					<div class="col-md-12 animate-box">
 					<h3>Apply for job</h3>
-					<form action="#">
+					<form enctype="multipart/form-data" action="post.php" method="post">
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="name">Name</label>
-								<input type="text" id="name" class="form-control" placeholder="Your name">
+								<input type="text" id="name" name="name" class="form-control" placeholder="Your name">
 							</div>
-							
+
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="email">Email</label>
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<input type="text" id="email" name="email" class="form-control" placeholder="Your email address">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="contact">Contact</label>
-								<input type="tel" id="contact" class="form-control" placeholder="Contact no.">
+								<input type="tel" id="contact" name="contact" class="form-control" placeholder="Contact no.">
 							</div>
 						</div>
                         <h5>Skills</h5>
                         <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="s1">Contact</label>
-								<input type="tel" id="s1" class="form-control" placeholder="Skill 1">
+								<input type="tel" id="s1" name="s1" class="form-control" placeholder="Skill 1">
 							</div>
 						</div>
-                        
+
                         <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="s2">Contact</label>
-								<input type="tel" id="s2" class="form-control" placeholder="Skill 2">
+								<input type="tel" id="s2" name="s2" class="form-control" placeholder="Skill 2">
 							</div>
 						</div>
-                        
+
                         <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="s3">Contact</label>
-								<input type="tel" id="s3" class="form-control" placeholder="Skill 3">
+								<input type="tel" id="s3" name="s3" class="form-control" placeholder="Skill 3">
 							</div>
 						</div>
                         <h5>Education</h5>
                         <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="school">Contact</label>
-								<input type="text" id="school" class="form-control" placeholder="Grade/Percentage in 10th standard">
+								<input type="text" id="school" name="school" class="form-control" placeholder="Grade/Percentage in 10th standard">
 							</div>
 						</div>
                         <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="college">Contact</label>
-								<input type="text" id="college" class="form-control" placeholder="Grade/Percentage on Graduation">
+								<input type="text" id="college" name="college" class="form-control" placeholder="Grade/Percentage on Graduation">
 							</div>
 						</div>
-                        
+
                         <h5>Work Experience</h5>
                         <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="we1">Contact</label>
-								<input type="text" id="school" class="form-control" placeholder="">
+								<input type="text" id="we" name="we" class="form-control" placeholder="">
 							</div>
 						</div>
-                        
+
+
                         <h4>OR</h4>
                         <br>
                         <h5>Upload your CV</h5>
-                        <div class="row form-group">
+            <div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="browse">File</label>
-								<input type="file" id="browse" class="form-control btn" placeholder="Upload CV">
+								<input name="file" type="file" id="file" class="form-control btn" placeholder="Upload CV">
 							</div>
 						</div>
-                        
-						
+
+
 						<div class="form-group">
 							<input type="submit" value="Upload your request" class="btn btn-primary">
 						</div>
 
-					</form>		
+					</form>
 				</div>
 				<!--<div class="col-md-5 col-md-push-1 animate-box">
-					
+
 					<div class="gtco-contact-info">
 						<h3>Contact Information</h3>
 						<ul>
@@ -223,9 +224,9 @@
 					</div>
 				</div>
 
-				
 
-				
+
+
 
 				<div class="col-md-3 col-md-push-2">
 					<div class="gtco-widget">
@@ -244,7 +245,7 @@
 			<!--<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
 						<small class="block">Designed by <a href="http://GetTemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
 					</p>
 					<p class="pull-right">
@@ -267,7 +268,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -287,14 +288,13 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
-	
+
 	<!-- Datepicker -->
 	<script src="js/bootstrap-datepicker.min.js"></script>
-	
+
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
-    
+
 	</body>
 </html>
-
